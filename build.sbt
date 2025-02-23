@@ -93,7 +93,7 @@ lazy val tests = module("tests") {
     .settings(
       libraryDependencies ++= Seq(
         "org.scalameta" %%% "munit" % "1.0.0",
-        "org.scalameta" %%% "munit-scalacheck" % "1.0.0"
+        "org.scalameta" %%% "munit-scalacheck" % "1.1.0"
       )
     )
 }
